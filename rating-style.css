@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #22254b;
+    --secondary-color: #373b69;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.nav {
+
+    float: right;
+}
+
+#navbar-color {
+
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+
+/* rating page navbar  */
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--secondary-color);
+  }
+  
+.table-color {
+
+    color : white;
+
+}
+
+.rating-button {
+
+    background-color: #373b69;
+}
+
+
+/* maually */
+.rate {
+
+  color : white;
+  margin : 10px;
+  text-decoration: none;
+  padding-right: 10px;
+}
